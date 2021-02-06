@@ -1,0 +1,63 @@
+Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                     children: [
+                      Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Account Number",
+                            style:TextStyle(
+                                fontSize: 20.0,
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 1.0,
+                                color: Colors.white
+                            ) ,),
+                          SizedBox(height: 8,),
+                          Text("1234567890",
+                            style:TextStyle(
+                              fontSize: 20.0,
+                              fontWeight: FontWeight.bold,
+                              letterSpacing: 1.0,
+                              color: Colors.white,
+
+                            ) ,),
+
+
+                        ],
+                      ),//account Number + status
+                      Column(
+                        children: [
+                          Text("Status",
+                            style:TextStyle(
+                                fontSize: 20.0,
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 1.0,
+                                color: Colors.white
+                            ) ,),
+                          SizedBox(height: 8,),
+                          Text("Active",
+                            style:TextStyle(
+                                fontSize: 20.0,
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 1.0,
+                                color: Colors.white
+                            ) ,),
+                          Icon(
+                            Icons.circle,
+                            color: Color(0xFF3BC876),
+                          ),
+
+
+
+                        ],
+                      ),
+                    ],
+                  ),
+                  Row(
+                      children:[
+                        SizedBox(height: 10,),
+                        Text("1111 2222 3333 4444")
+                      ]),
+                ],
+              ),
